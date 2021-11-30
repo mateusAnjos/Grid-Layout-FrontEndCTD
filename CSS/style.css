@@ -1,0 +1,77 @@
+/* Integrantes
+Osmar Franco
+Ricardo Carvalho
+Eliel Acioly
+Mateus Anjos */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+  .container{
+    display: grid;
+     grid-template-columns: 1fr 11fr ;
+      grid-template-areas: 
+      'header header'
+      'aside main'
+      'footer footer';
+  }
+  
+  header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(52,91,99);
+    color: white;
+    grid-area: header;
+    padding: 10px;
+  }
+  #imgHeader{
+     width: 300px;
+  }
+  
+  h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  aside{
+    background-color: rgb(21,45,53);
+    color: white;
+    grid-area: aside;
+    padding: 20px;
+  }
+  
+  li {
+    list-style: none;
+    line-height: 2;
+    margin-bottom: 12px
+  }
+  
+  main{
+    background-color: rgb(221,240,228);
+    padding: 48px;
+    grid-area: main;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    grid-area: footer;
+    background-color: rgb(52,91,99);
+    color: white;
+    padding: 12px;
+  }
+  
+  #imgMain {
+    width: 100%;
+  }
+  
+  a:link{
+    color: white;
+    text-decoration: none
+  }
+  a:visited{
+    color: white;
+    text-decoration: none
+  }
